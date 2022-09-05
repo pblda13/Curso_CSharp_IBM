@@ -6,7 +6,6 @@ namespace Desafio2764
     {
         static void Main(string[] args)
         {
-
             TextoArquivo transcricaodetxt = new TextoArquivo();
             transcricaodetxt.LeituraDeArquivo();
 

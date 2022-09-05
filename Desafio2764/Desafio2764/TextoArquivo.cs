@@ -11,16 +11,13 @@ namespace Desafio2764
         public string D2 { get; set; }
         public string D3 { get; set; }
         private string Line { get; set; }
-
         public TextoArquivo()
         {
         }
-
         public void LeituraDeArquivo()
         {
             FileStream fs = null;
             StreamReader sr = null;
-
             string path = @"C:\Users\017542631\source\repos\Curso_de_C_Sharp\Desafio2764\Data_De_Entrada.txt";
             fs = new FileStream(path, FileMode.Open);
             sr = new StreamReader(fs);
@@ -32,8 +29,6 @@ namespace Desafio2764
         }
         public void EscreverNosArquivos()
         {
-
-
             string arquivo2 = @"C:\Users\017542631\source\repos\Curso_de_C_Sharp\Desafio2764\Data_De_Saida_1.txt";
             string arquivo3 = @"C:\Users\017542631\source\repos\Curso_de_C_Sharp\Desafio2764\Data_De_Saida_2.txt";
             string arquivo4 = @"C:\Users\017542631\source\repos\Curso_de_C_Sharp\Desafio2764\Data_De_Saida_3.txt";
